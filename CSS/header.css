@@ -12,6 +12,7 @@
   
 }
 
+
 #projects{
     background-color: var(--grey);
 }
@@ -65,7 +66,6 @@
   font-size: 20px;
   color: rgba(255,255,255,.70);
   position: relative;
-  left: 30px;
   color: black;
 }
   
@@ -79,9 +79,8 @@ z-index: 100;
     align-items: self-end;
     line-height: 10px;
     height: 3px;
-    margin-left: 28px;
     -webkit-animation: blink 1s infinite;
-color: black;
+    color: black;
 }
   
   @keyframes blink2 {
@@ -125,14 +124,14 @@ color: black;
 
 
 
-@media (max-width: 380px){
+@media (max-width: 420px){
   .jumbotron{
     height: 1000px;
     background-image: linear-gradient(to bottom, black 40%, rgb(141, 141, 141, .8)40%);
     background-size: cover;
     color: white;
     margin: none;
-    padding-top: 330px;
+    padding-top: 335px;
     
     
   }
@@ -192,21 +191,19 @@ color: black;
     font-size: 15px;
     color: rgba(255,255,255,.70);
     position: relative;
-    left: 30px;
     color: black;
   }
-    
+  #header2{
+    right: 1px
+  }
   #border2 {
   z-index: 100;
-      border-bottom: solid 3px rgba(255, 255, 255, 0);
       position: relative;
-      top: 25px;
-      width: 20px;
+      top: 18px;
+      width: 18px;
       display: flex;
       align-items: self-end;
-      line-height: 10px;
       height: 3px;
-      margin-left: 28px;
       -webkit-animation: blink 1s infinite;
   color: black;
   }
@@ -236,12 +233,14 @@ color: black;
     
   }
   #icons{
-    padding-top: 100px;
+    padding-top: 50px;
     letter-spacing: 40px;
-    
+  }
+  #icons img{
+    padding:10px;
   }
   .col-12 img{
     max-width: 100%;
   }
   
-  
+}
