@@ -1,0 +1,29 @@
+.text-center {
+  text-align: center;
+  font-size: 25px;
+  color: var(--blue);
+  font-weight: 500;
+}
+
+#about {
+}
+.card img {
+  max-width: 100%;
+}
+.portfolio{
+    text-align: center;
+}
+.card{
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+.portfolio{
+    padding-top: 10vw;
+    padding-bottom:10vw ;
+}
+#cards {
+  margin: auto;
+
+}

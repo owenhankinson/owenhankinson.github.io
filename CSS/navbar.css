@@ -1,0 +1,28 @@
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    color: white;
+    z-index: 10000;
+}
+.nav-link{
+    color: white;
+    transition-duration: .4s;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    color: var(--blue);
+}
+.navbar-brand {
+    font-size: 30px;
+    color: white;
+    transition-duration: .4s;
+}
+.navbar-brand:hover{
+    color: var(--blue);
+}
+.navbar-nav{
+    color: white;
+}
+.navbar-toggler{
+    z-index: 1000;
+}

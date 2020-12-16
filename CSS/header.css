@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+.jumbotron{
+  height: 1000px;
+  background-image: linear-gradient(to bottom, black 40%, rgb(141, 141, 141, .8)40%);
+  background-size: cover;
+  color: white;
+  margin: none;
+  padding-top: 300px;
+  
+  
+}
+
+#projects{
+    background-color: var(--grey);
+}
+
+.typewrite{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.display-4{
+    font-size: 50px;
+    font-weight: lighter;
+    right: -20px;
+}
+#parent {
+  white-space: nowrap;
+  overflow: hidden; 
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 20px;
+  color: rgba(255,255,255,.70);
+
+}
+.coolWrapper{
+  display: flex;
+
+}
+#border {
+  z-index: 100;
+  border-bottom: solid 3px rgba(255, 255, 255, 0);
+  position: relative;
+  top: 25px;
+  width: 20px;
+ 
+  display: flex;
+  align-items: self-end;
+  line-height: 10px;
+  height: 3px;
+  margin-left: 3px;
+  -webkit-animation: blink 1s infinite;
+}
+  
+  @-webkit-keyframes blink {
+    0% {background: transparent}
+    50% {background: rgb(255, 255, 255)}
+    100% {background: black}
+  }
+  
+#parent2 {
+  white-space: nowrap;
+  overflow: hidden; 
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 20px;
+  color: rgba(255,255,255,.70);
+  position: relative;
+  left: 30px;
+  color: black;
+}
+  
+#border2 {
+z-index: 100;
+    border-bottom: solid 3px rgba(255, 255, 255, 0);
+    position: relative;
+    top: 25px;
+    width: 20px;
+    display: flex;
+    align-items: self-end;
+    line-height: 10px;
+    height: 3px;
+    margin-left: 28px;
+    -webkit-animation: blink 1s infinite;
+color: black;
+}
+  
+  @keyframes blink2 {
+    0% {background: transparent}
+    50% {background: black}
+    100% {background: transparent}
+  }
+  
+.flipH{
+  color: black;
+  position: relative;
+  display: block;
+  transform: rotateX(180deg);
+  transform: rotateY(180deg);
+  opacity: 20%;
+  bottom: 15px;
+}
+#box{
+  position: relative;
+  margin: auto;
+  max-width: 700px;
+  width: auto;
+  height: 3px;
+  background-color: var(--blue);
+  top: 600px;
+  
+}
+#icons{
+  padding-top: 100px;
+  letter-spacing: 40px;
+  
+}
+.col-12 img{
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 380px){
+  .jumbotron{
+    height: 1000px;
+    background-image: linear-gradient(to bottom, black 40%, rgb(141, 141, 141, .8)40%);
+    background-size: cover;
+    color: white;
+    margin: none;
+    padding-top: 330px;
+    
+    
+  }
+  #header2{
+    position: relative;
+    padding-top: 20px;
+  }
+  #projects{
+      background-color: var(--grey);
+  }
+  
+  .typewrite{
+      font-family: 'Quicksand', sans-serif;
+  }
+  
+  .display-4{
+      font-size: 25px;
+      font-weight: lighter;
+      right: -20px;
+  }
+  #parent {
+    white-space: nowrap;
+    overflow: hidden; 
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 15px;
+    color: rgba(255,255,255,.70);
+  
+  }
+  .coolWrapper{
+    display: flex;
+  
+  }
+  #border {
+    z-index: 100;
+    border-bottom: solid 3px rgba(255, 255, 255, 0);
+    position: relative;
+    top: 20px;
+    width: 15px;
+   
+    display: flex;
+    align-items: self-end;
+    height: 1px;
+    margin-left: 3px;
+    -webkit-animation: blink 1s infinite;
+  }
+    
+    @-webkit-keyframes blink {
+      0% {background: transparent}
+      50% {background: rgb(255, 255, 255)}
+      100% {background: black}
+    }
+    
+  #parent2 {
+    white-space: nowrap;
+    overflow: hidden; 
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 15px;
+    color: rgba(255,255,255,.70);
+    position: relative;
+    left: 30px;
+    color: black;
+  }
+    
+  #border2 {
+  z-index: 100;
+      border-bottom: solid 3px rgba(255, 255, 255, 0);
+      position: relative;
+      top: 25px;
+      width: 20px;
+      display: flex;
+      align-items: self-end;
+      line-height: 10px;
+      height: 3px;
+      margin-left: 28px;
+      -webkit-animation: blink 1s infinite;
+  color: black;
+  }
+    
+    @keyframes blink2 {
+      0% {background: transparent}
+      50% {background: black}
+      100% {background: transparent}
+    }
+    
+  .flipH{
+    color: black;
+    position: relative;
+    display: block;
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    opacity: 20%;
+    bottom: 15px;
+  }
+  #box{
+    position: relative;
+    margin: auto;
+    max-width: 200px;
+    height: 3px;
+    background-color: var(--blue);
+    top: 635px;
+    
+  }
+  #icons{
+    padding-top: 100px;
+    letter-spacing: 40px;
+    
+  }
+  .col-12 img{
+    max-width: 100%;
+  }
+  
+  
