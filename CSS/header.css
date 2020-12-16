@@ -7,7 +7,7 @@
   background-size: cover;
   color: white;
   margin: none;
-  padding-top: 300px;
+  padding-top: 290px;
   
   
 }
@@ -95,8 +95,9 @@ z-index: 100;
   display: block;
   transform: rotateX(180deg);
   transform: rotateY(180deg);
-  opacity: 20%;
+  opacity: 40%;
   bottom: 15px;
+  padding-top:20px ;
 }
 #box{
   position: relative;
@@ -109,7 +110,7 @@ z-index: 100;
   
 }
 #icons{
-  padding-top: 100px;
+  padding-top: 130px;
   letter-spacing: 40px;
   
 }
@@ -220,7 +221,7 @@ z-index: 100;
     display: block;
     transform: rotateX(180deg);
     transform: rotateY(180deg);
-    opacity: 20%;
+    opacity: 30%;
     bottom: 15px;
   }
   #box{
