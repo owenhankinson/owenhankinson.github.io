@@ -127,12 +127,12 @@ z-index: 100;
 
 @media (max-width: 420px){
   .jumbotron{
-    height: 1000px;
-    background-image: linear-gradient(to bottom, black 40%, rgb(141, 141, 141, .8)40%);
+    height: 800px;
+    background-image: linear-gradient(to bottom, black 35%, rgb(141, 141, 141, .8)35%);
     background-size: cover;
     color: white;
     margin: none;
-    padding-top: 335px;
+    padding-top: 200px;
     
     
   }
@@ -230,11 +230,11 @@ z-index: 100;
     max-width: 200px;
     height: 3px;
     background-color: var(--blue);
-    top: 635px;
+    top: 570px;
     
   }
   #icons{
-    padding-top: 50px;
+    padding-top: 6px;
     letter-spacing: 40px;
   }
   #icons img{

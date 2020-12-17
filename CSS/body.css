@@ -62,3 +62,14 @@ a#pdf{
 #contact{
 padding-bottom: 100px;
 }
+
+
+
+
+@media (max-width: 420px){
+  #about {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 1.4rem;
+  }
+}
