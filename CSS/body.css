@@ -1,3 +1,9 @@
+
+body{
+  background-color: var(--grey);
+}
+
+
 .text-center {
   text-align: center;
   font-size: 25px;
@@ -49,6 +55,7 @@
 #resume{
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: rgb(112, 112, 112);
 }
 a#pdf{
   position: relative;
@@ -64,7 +71,9 @@ padding-bottom: 100px;
 }
 
 
-
+.btn{
+  color: var(--white);
+}
 
 @media (max-width: 420px){
   #about {
@@ -73,3 +82,4 @@ padding-bottom: 100px;
     font-size: 1.4rem;
   }
 }
+

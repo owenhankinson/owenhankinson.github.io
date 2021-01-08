@@ -1,0 +1,24 @@
+.card{
+    height: auto;
+    text-align: center;
+    width: 100%;
+    color: var(--white);
+    background-color: rgb(83, 83, 83)
+}
+
+.card-header{
+    font-size: 1.5vw;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#resume a{
+    color: var(--white);
+}
+
+#portfolio{
+    padding-bottom: 60px;
+}

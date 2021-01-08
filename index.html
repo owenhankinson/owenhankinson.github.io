@@ -71,7 +71,7 @@
         <h1 class = 'text-center'style="text-align: center">ABOUT ME <br></h1>
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div id= "abouttxt" class="col-12">
                     Since I was little, I've been fascinated everyday with what can be achieved with technology.  This drives me to learn and to grow in every aspect of my life and to be curious about how things are made and how things work.  Learning is something I am very passionate about.  My desire to learn motivates me to take every opportunity I can and to have enough courage to make mistakes and fail.  
                     <br>
                     <br>
@@ -84,59 +84,44 @@
       <section id="portfolio">
         <h1 style="padding-bottom: 10px;"class="text-center">PROJECTS</h1>
         <div class="container">
-            <div class="card" style="width: 21rem;">
-                <img src="./Assets/creature.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">CSS Creature</h5>
-                    <p class="card-text">One of the First projects I've done creating a creature with HTML and CSS.
-                    <br>
-                    <br> 
-                    Demonstrates knowledge using classes, ID's and genral styling in CSS</p>
-                    <a target="blank" href="https://owenhankinson.github.io/CSS-Creature/" class="btn btn-primary">View</a>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Studio Ghibli API</div>
+                            <div class="card-body opposite">
+                                <h6 class="card-title">Completed</h6>
+                                <p class="card-text">First API I've built using HTML/JavaScript, thrown together with some CSS to make everything look presentable</p>
+                                <a href="https://och-studioghibliapi.web.app/" class="btn btn-primary">Check it out</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">Static HTML Page</div>
+                            <div class="card-body">
+                                <h6 class="card-title">Completed</h6>
+                                <p class="card-text">Mock page of the HULU home page.</p>
+                                <a href="https://owenhankinson.github.io/StaticHULUPage/" class="btn btn-primary">Check it out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Python Wikipedia Web Scraper</div>
+                            <div class="card-body opposite">
+                                <h6 class="card-title">Completed</h6>
+                                <p class="card-text">raw python that finds all the links in a given Wikipedia link and returns a file that lists all the links on the page, parsed and formatted.</p>
+                                <a href="https://github.com/owenhankinson/wikiWebScraper" class="btn btn-primary">Check it out</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">Python copyPaste Application</div>
+                            <div class="card-body opposite">
+                                <h6 class="card-title">In Progress...</h6>
+                                <p class="card-text">Python application works to eliminate the constraint of the clipboard. This app records each element that the user copies and stores it in an interactive list for the user to use at his/her will. Main functions include "Copy Selection", "Copy All", and "Reset List", updates are pushed to the github link below.</p>
+                                <a href="https://github.com/owenhankinson/copyPaste" class="btn btn-primary">Check it out</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        
-                
-            <div class="card" style="width: 21rem;">
-                <img src="./Assets/hulu.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Static Layout</h5>
-                <p class="card-text">Modeled after the front page of the HULU website.
-                <br>
-                <br>
-                Demonstrates an understanding of foreign HTML, the use of spacing, and flexbox</p>
-                <a target="blank" href="https://owenhankinson.github.io/StaticHULUPage/" class="btn btn-primary">View</a>
-                </div>
-            </div>
-                
-               
-            <div class="card" style="width: 21rem;">
-                <img src="./Assets/studio.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title"> Studio Ghibili API</h5>
-                <p class="card-text">First solo built API using the Studio Ghibili API. The code finds each movie and showcases the title, director, and a small description of the movie. Each movie is also linked to a google search of that movie for more information. 
-                <br>
-                <br>
-                Demonstrates a knowledge of JavaScript and RESTful APIs</p>
-                <a target="blank" href="https://och-studioghibliapi.web.app/" class="btn btn-primary">View</a>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="card" style="width: 21rem;">
-                <img src="./Assets/Capture.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Python Web Scraper</h5>
-                    <p class="card-text">A Wikipidia webscraper using python and BeautifulSoup, os, and requests modules.
-                    <br>
-                    <br> 
-                    Demonstrates knowledge using python </p>
-                    <a target="blank" href="https://github.com/owenhankinson/wikiWebScraper" class="btn btn-primary">View</a>
-                </div>
-            </div>
-            </div>
-        </div>
-        
       </section>
       <!-- RESUME -->
       <section id="resume">
@@ -151,7 +136,7 @@
             <br>
             <h2 class="text-center" >CONTACT ME</h2>
             <div class="row">
-                <div class="col-12">
+                <div id="contact" class="col-12">
                     <form action="https://formspree.io/f/xbjpzvwe" method="POST">
                         <div class="control-group">
                             <div class="form-group">
