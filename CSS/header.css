@@ -3,7 +3,7 @@
 
 .jumbotron{
   height: 1000px;
-  background-image: linear-gradient(to bottom, black 40%, rgb(141, 141, 141, .8)40%);
+  background-image: linear-gradient(to bottom, black 40%,rgb(112, 112, 112)40%);
   background-size: cover;
   color: white;
   margin: none;

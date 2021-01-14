@@ -4,4 +4,17 @@
 
 .form-control{
     background-color: rgb(83, 83, 83);
+    color: white;
+    border:1px var(--grey)
+}
+
+.form-group label{
+    color: rgb(202, 202, 202);
+    border: 1px black;
+}
+
+.form-control:focus{
+    z-index: 10000;
+    background-color:rgb(83, 83, 83);
+    color: rgb(202, 202, 202);
 }
