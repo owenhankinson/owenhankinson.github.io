@@ -50,7 +50,6 @@ body{
 
 .btn:hover{
   background-color: var(--blue);
-  border: none;
 }
 #resume{
   padding-top: 200px;
